@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="exe.HS_TS004_Mandatory_Column_Check">
+        <methods>
+          <include name="HS_Mailing_City_Mandatory_Check_TC010"/>
+          <include name="HS_Premise_City_Mandatory_Check_TC008"/>
+          <include name="HS_Partner_Account_Number_Mandatory_And_Length_Check_TC011"/>
+          <include name="HS_Premise_State_Mandatory_Check_TC009"/>
+        </methods>
+      </class> <!-- exe.HS_TS004_Mandatory_Column_Check -->
+      <class name="exe.HS_TS008_AEPCustomer_Details_Check">
+        <methods>
+          <include name="HS_AEPCustomer_FirstName_Check_TC020"/>
+          <include name="HS_AEPCustomer_LastName_Check_TC021"/>
+          <include name="HS_AEPCustomer_UniqueID_Check_TC024"/>
+          <include name="HS_AEPCustomer_MailingAddressState_Check_TC022"/>
+          <include name="HS_AEPCustomer_PremisesAddressZipPlus4_Check_TC023"/>
+        </methods>
+      </class> <!-- exe.HS_TS008_AEPCustomer_Details_Check -->
+      <class name="exe.HS_TS005_Contract_SchedRef_Check">
+        <methods>
+          <include name="HS_Contract_SchedRef_TC012"/>
+          <include name="HS_Contract_SchedRef_TC013"/>
+        </methods>
+      </class> <!-- exe.HS_TS005_Contract_SchedRef_Check -->
+      <class name="exe.HS_TS009_AEPAudit_Details_Check">
+        <methods>
+          <include name="HS_AEPAudit_ProductCodes_Null_Check_TC026"/>
+          <include name="HS_AEPAudit_Date_Check_TC025"/>
+        </methods>
+      </class> <!-- exe.HS_TS009_AEPAudit_Details_Check -->
+      <class name="exe.HS_TS003_Record_Type_DataValidation">
+        <methods>
+          <include name="HS_Record_Type_AS_HS_DownGrade_TC006"/>
+        </methods>
+      </class> <!-- exe.HS_TS003_Record_Type_DataValidation -->
+      <class name="exe.HS_TS010_PaymentsFromPartner_Check">
+        <methods>
+          <include name="HS_SJPayments_ChargeType_Check_TC029"/>
+          <include name="HS_SJPayments_Invoice_Number_Check_TC030"/>
+          <include name="HS_SJPayments_Partner_Record_Type_Check_TC033"/>
+          <include name="HS_SJPayments_Transaction_Amount_Check_TC031"/>
+          <include name="HS_SJPayments_AccountNumber_Check_TC028"/>
+          <include name="HS_SJPayments_Partner_ChargeSign_Check_TC032"/>
+        </methods>
+      </class> <!-- exe.HS_TS010_PaymentsFromPartner_Check -->
+      <class name="exe.HS_TS002_RecCount">
+        <methods>
+          <include name="HS_FileLevelRecCount_TC003"/>
+        </methods>
+      </class> <!-- exe.HS_TS002_RecCount -->
+      <class name="exe.HS_TS006_Phone_Number_Check">
+        <methods>
+          <include name="HS_Premise_Home_Phone_Check_TC014"/>
+          <include name="HS_Premise_Work_Phone_Check_TC015"/>
+          <include name="HS_Premise_Work_Phone_Check_TC016"/>
+        </methods>
+      </class> <!-- exe.HS_TS006_Phone_Number_Check -->
+      <class name="exe.HS_TS007_Premise_Name_Check">
+        <methods>
+          <include name="HS_Premise_Last_Name_Check_TC019"/>
+          <include name="HS_Premise_First_Name_Check_TC018"/>
+        </methods>
+      </class> <!-- exe.HS_TS007_Premise_Name_Check -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
